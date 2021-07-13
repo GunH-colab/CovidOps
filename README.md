@@ -1,7 +1,7 @@
 # CovidOps
 Repository contains data and code files for the creation of X-ray image classification model and Covid-19 cough voice model.
 
-#Abstract and Idea
+# Abstract and Idea
 Waiting in a tiring queue for a simple Covid-19 checkup after a long search for outlets for different services, expecting a result for days (which also can turn out wrong at times) is a significant nuisance. We bring to you CoviGenix as a solution to all these problems where you can check your Covid-19 health status at home with your voice or lungs X-ray images and get the pinpointed location of facilities nearby, thus constructing an AI based centralized application for all your Covid-19 related services.
 
 Problem Statement - Developing a centralized AI embedded application for instant Covid-19 check-up and apt facilities for citizens and service providers. We sought to prepare two ML algorithms, to classify whether you are infected or not using Covid-19 cough voice data and X-ray images of Covid-19 infected lungs using Machine Learning deployed on an application for consumer usage.
