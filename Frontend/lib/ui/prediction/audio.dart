@@ -175,7 +175,7 @@ class _AudioState extends State<Audio> {
     print(len);
 
     Future.delayed(Duration(milliseconds: 2000)).then((value) async {
-      Uri uri = Uri.https(Helper.MODEL_BASE_URL, "audio");
+      Uri uri = Uri.https(Helper.MODEL_BASE_URL, "prediction/audio");
       //Uri uri = Uri.http(Helper.MODEL_BASE_URL, "audio");
       final request = http.MultipartRequest('POST', uri)
         ..files.add(await http.MultipartFile.fromPath('file', fout.path,

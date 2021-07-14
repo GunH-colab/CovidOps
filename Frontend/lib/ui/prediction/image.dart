@@ -104,7 +104,7 @@ class _ImagePageState extends State<ImagePage> {
     img.Image imageTemp = img.decodeImage(f.readAsBytesSync())!;
     img.Image resizedImg = img.copyResize(imageTemp, width: 224, height: 224);
     print("Resizing done");
-    Uri uri = Uri.https(Helper.MODEL_BASE_URL, "image");
+    Uri uri = Uri.https(Helper.MODEL_BASE_URL, "prediction/image");
 
     Future.delayed(Duration(milliseconds: 500)).then((value) async {
       String fileName = "${Helper.getId()}-${Random().nextInt(100) + 1}.jpg";

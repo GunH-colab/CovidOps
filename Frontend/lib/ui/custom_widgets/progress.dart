@@ -7,13 +7,13 @@ class CustomProgressIndicator extends StatelessWidget {
   late ProgressDialog pr;
   @override
   Widget build(BuildContext context) {
-    //   return Center(
-    //     child: CircularProgressIndicator(
-    //          strokeWidth: 2,
-    //          backgroundColor: Colors.blue,
-    //     ),
-    //   );
-    pr = new ProgressDialog(context);
+    return Center(
+      child: CircularProgressIndicator(
+        strokeWidth: 2,
+        backgroundColor: Colors.blue,
+      ),
+    );
+    /*pr = new ProgressDialog(context);
     pr.style(
         message: 'Please Waiting...',
         borderRadius: 10.0,
@@ -29,12 +29,8 @@ class CustomProgressIndicator extends StatelessWidget {
             color: Colors.black, fontSize: 19.0, fontWeight: FontWeight.w600)
     );
     return Center(
-      child:
-
-
-
-
-
+      child:pr
+    );*/
   }
 }
 
